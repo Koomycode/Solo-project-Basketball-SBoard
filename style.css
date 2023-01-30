@@ -1,0 +1,60 @@
+@font-face {
+    font-family: DigNum;
+    src: url(./Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b244a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    color: #fff;
+    margin: 5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+#h-num,
+#g-num {
+    font-family: "DigNum";
+    color: #f94f6d;
+    font-size: 8rem;
+    margin-block: 1.5rem;
+    padding-block: 4rem 3rem;
+    background: #000;
+    width: 270px;
+    text-align: center;
+}
+
+button {
+    padding: 15px;
+    font-family: "DigNum";
+    font-size: 25px;
+    margin-inline: .2rem;
+    cursor: pointer;
+    border: 2px solid #9AABD8 ;
+    background: transparent;
+    color: #9AABD8;
+    border-radius: 5px;
+}
